@@ -1,0 +1,22 @@
+Variables Setup:
+let a=0;
+let b=9;
+
+Constants Setup:
+const a=0;
+
+Output:
+console.log("Hello");
+
+Input:
+const text = await rl.question("Take a guess: "); // rl.question() returns text (a string)
+guess = parseInt(text, 10); // convert the text to a number
+
+Convert text to number:
+parseInt()
+
+if else:
+if(){}
+else if(){}
+else{}
+
