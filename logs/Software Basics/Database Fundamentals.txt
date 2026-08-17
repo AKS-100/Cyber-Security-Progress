@@ -1,0 +1,6 @@
+Database as a place where a computer stores information in an organised way.
+
+A table resembles a spreadsheet, where information is organised neatly into rows and columns.
+
+Columns are the titles at the top of the table. They describe the type of information stored.
+Rows go across the table. Each row contains one complete set of information.

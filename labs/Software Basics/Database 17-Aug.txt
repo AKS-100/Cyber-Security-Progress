@@ -1,0 +1,5 @@
+SELECT * FROM Orders;
+SELECT drink, price FROM Orders;
+SELECT * FROM Orders WHERE drink='Coffee';
+SELECT * FROM Orders ORDER BY price;
+SELECT * FROM Orders WHERE drink = 'Coffee' ORDER BY price DESC;
