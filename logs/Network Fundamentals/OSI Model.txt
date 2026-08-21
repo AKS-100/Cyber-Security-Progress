@@ -1,0 +1,13 @@
+OSI model (or Open Systems Interconnection Model) is an essential model used in networking.  This critical model provides a framework dictating how all networked devices will send, receive and interpret data.
+
+OSI model consists of seven layers which are illustrated in the diagram below. Each layer has a different set of responsibilities and is arranged from Layer 7 to Layer 1.
+
+Layers:
+Application
+Presentation
+Session
+Transport
+Network
+Data link
+Physical
+
