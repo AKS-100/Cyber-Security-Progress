@@ -1,0 +1,10 @@
+Symmetric Encryption Explained
+The Caesar cipher is an example of symmetric encryption. This means that:
+
+The same key encrypts (locks) and decrypts (unlocks) the message.
+Both sender and receiver need a copy of that key.
+The key has to stay secret from everyone else.
+Some of the benefits of using symmetric encryption are:
+
+It's fast. Symmetric algorithms can churn through huge amounts of data really quickly.
+It's efficient. Perfect for encrypting files, hard drives, and network traffic where speed matters.
