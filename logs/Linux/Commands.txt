@@ -10,3 +10,9 @@ grep	searches inside for text. For example, grep "password123" passwords.txt
 &&	Runs both commands, but waits for the first command to finish first, before the next. Like a set of dominoes.
 >	Used to redirect output. We can take the output of a command and send it to a file. This operator will overwrite anything that exists in the file.
 >>	This redirector does the same thing, but instead of overwriting, it will just add the output to the bottom of the file.
+touch	Create file
+mkdir	Create a folder
+cp	Copy a file or folder
+mv	Move a file or folder & rename the file
+rm	Remove a (file->>>>> rm filename) or (folder->>>>> rm -R foldername)
+file	Determine the type of a file

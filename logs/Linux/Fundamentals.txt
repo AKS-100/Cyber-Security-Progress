@@ -1,0 +1,17 @@
+What is SSH & how Does it Work?
+
+Secure Shell or SSH simply is a protocol between devices in an encrypted form. Using cryptography, any input we send in a human-readable format is encrypted for travelling over a network -- where it is then unencrypted once it reaches the remote machine
+
+The Man(ual) Page
+
+The manual pages are a great source of information for both system commands and applications available on both a Linux machine, which is accessible on the machine itself and online(opens in new tab).
+
+Section	Applies To	Example
+First 3	Owner		rwx
+Next 3	Group		rwx
+Last 3	Others		rwx
+Each letter represents a specific permission:
+
+r = read
+w = write
+x = execute
