@@ -16,3 +16,14 @@ cp	Copy a file or folder
 mv	Move a file or folder & rename the file
 rm	Remove a (file->>>>> rm filename) or (folder->>>>> rm -R foldername)
 file	Determine the type of a file
+
+ssh	SSH allows us to remotely execute commands on another device remotely.
+username@ip-adress
+
+su	Switching between users on a Linux
+user2
+
+/etc	The etc folder (short for etcetera) is a commonplace location to store system files that are used by your operating system. 
+/var	This folder stores data that is frequently accessed or written by services or applications running on the system. 
+/root 	/root folder is actually the home for the "root" system user
+/tmp	/tmp directory is volatile and is used to store data that is only needed to be accessed once or twice
