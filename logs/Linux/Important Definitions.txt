@@ -1,0 +1,7 @@
+Important Definitions:
+
+PID		each process will have an ID associated with it, also known as its PID. The PID increments for the order In which the process starts.
+systemd 	is one of the first processes that are started.
+SIGTERM - 	Kill the process, but allow it to do some cleanup tasks beforehand
+SIGKILL - 	Kill the process - doesn't do any cleanup after the fact
+SIGSTOP - 	Stop/suspend a process

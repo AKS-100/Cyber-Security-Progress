@@ -1,27 +1,52 @@
-whoami	tells you who you are on the system
-echo	output some specific text that is provided
-ls	list what's in the current folder
-cd	change directory — move into a folder
-cat	show the contents of a file
-pwd	print working directory — "where am I?"
-find	search for files by their name. For example, find -name passwords.txt
-grep	searches inside for text. For example, grep "password123" passwords.txt
-&	Runs the command, but does not wait for it to finish before you can do anything else. The command runs in the backgorund, and is helpful for commands 	that might take a while to complete, or ones that you want to keep running.
-&&	Runs both commands, but waits for the first command to finish first, before the next. Like a set of dominoes.
->	Used to redirect output. We can take the output of a command and send it to a file. This operator will overwrite anything that exists in the file.
->>	This redirector does the same thing, but instead of overwriting, it will just add the output to the bottom of the file.
-touch	Create file
-mkdir	Create a folder
-cp	Copy a file or folder
-mv	Move a file or folder & rename the file
-rm	Remove a (file->>>>> rm filename) or (folder->>>>> rm -R foldername)
-file	Determine the type of a file
+whoami		tells you who you are on the system
+echo		output some specific text that is provided
+ls		list what's in the current folder
+cd		change directory — move into a folder
+cat		show the contents of a file
+pwd		print working directory — "where am I?"
+find		search for files by their name. For example, find -name passwords.txt
+grep		searches inside for text. For example, grep "password123" passwords.txt
+&		Runs the command, but does not wait for it to finish before you can do anything else. The command runs in the backgorund, and is helpful for 			commands that might take a while to complete, or ones that you want to keep running.
+&&		Runs both commands, but waits for the first command to finish first, before the next. Like a set of dominoes.
+>		Used to redirect output. We can take the output of a command and send it to a file. This operator will overwrite anything that exists in the file.
+>>		This redirector does the same thing, but instead of overwriting, it will just add the output to the bottom of the file.
+touch		Create file
+mkdir		Create a folder
+cp		Copy a file or folder
+mv		Move a file or folder & rename the file
+rm		Remove a (file->>>>> rm filename) or (folder->>>>> rm -R foldername)
+file		Determine the type of a file
+ssh		ssh username@ip-adress
+		SSH allows us to remotely execute commands on another device remotely.
+su		su user2
+		Switching between users on a Linux
+wget		wget https://assets.tryhackme.com/additional/linux-fundamentals/part3/myfile.txt
+		This command allows us to download files from the web via HTTP -- as if you were accessing the file in your browser
+scp		SCP allows you to:
+		Copy files & directories from your current system to a remote system
+		scp filename.txt remotesystemusername@remotesystemip:/home/ubuntu/transferred.txt
+		Copy files & directories from a remote system to your current system
+		scp ubuntu@192.168.1.30:/home/ubuntu/documents.txt notes.txt 
+python3 	python3 -m  http.server
+		 turns your computer into a quick and easy web server that you can use to serve your own files, where they can then be downloaded by another 
+		computing using commands such as curl and wget.
+		wget http://ip:port/filename
+ps 		ps command to provide a list of the running processes as our user's session 
+ps aux		To see the processes run by other users and those that don't run from a session (i.e. system processes)
+top		top gives you real-time statistics about the processes running on your system instead of a one-time view.
+kill		kill pid			
+		To kill a command
+systemctl	his command allows us to interact with the systemd process/daemon
+		systemctl [option] [service]
+		systemctl has five options:
+			Start
+			Stop
+			Enable
+			Disable
+			Status
 
-ssh	SSH allows us to remotely execute commands on another device remotely.
-username@ip-adress
+apt		Apt contains a whole suite of tools that allows us to manage the packages and sources of our software, and to install or remove software at 		the same time.
 
-su	Switching between users on a Linux
-user2
 
 /etc	The etc folder (short for etcetera) is a commonplace location to store system files that are used by your operating system. 
 /var	This folder stores data that is frequently accessed or written by services or applications running on the system. 
