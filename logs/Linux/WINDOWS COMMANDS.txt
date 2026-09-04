@@ -1,0 +1,10 @@
+WINDOWS COMMANDS:
+
+anycommand /?	help for that commands
+whoami		output the name of the logged-in user
+hostname	output the computer name.
+ipconfig	how the network address settings for the computer
+cls		clear the command prompt screen
+netstat		display protocol statistics and current TCP/IP network connections. 
+net 		manage network resources
+net help 	help for net command

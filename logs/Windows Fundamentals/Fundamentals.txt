@@ -1,0 +1,16 @@
+ADS		(ADS) is a file attribute specific to Windows  NTFS  (New Technology File System).
+%windir% 	Place where environment variable are stored in windows
+resmon		Resource Monitor
+WindowsRegistry central hierarchical database used to store information necessary to configure the system , applications, and hardware devices
+
+
+control /name Microsoft.WindowsUpdate-----Lauch Windows Updates
+
+FireWall:
+Traffic flows into and out of devices via what we call ports. A firewall is what controls what is - and more importantly isn't - allowed to pass through those ports. You can think of it like a security guard standing at the door, checking the ID of everything that tries to enter or exit
+
+TPM(Trusted Platfom Module)
+Per Microsoft, "Trusted Platform Module (TPM) technology is designed to provide hardware-based, security-related functions. A TPM chip is a secure crypto-processor that is designed to carry out cryptographic operations. The chip includes multiple physical security mechanisms to make it tamper-resistant, and malicious software is unable to tamper with the security functions of the TPM".
+
+Volume Shadow Copy Service (VSS)
+coordinates the required actions to create a consistent shadow copy (also known as a snapshot or a point-in-time copy) of the data that is to be backed up. 
